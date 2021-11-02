@@ -1,19 +1,25 @@
 <div id="top"></div>
 
-# Project Title
+<h1 align="center">
+   <a href="https://www.arexcr.com/projects/polaris/" target="_blank"><img width=100% src="images/polarislogo.png"></a><br />
+   Project Title
+</h1>
 
-<!-- BADGES -->
-[![forthebadge](https://forthebadge.com/images/badges/uses-badges.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-<br>
-[![issues](https://img.shields.io/github/issues/ArexCR-ProjectPolaris/example)](#top)
-[![release](https://img.shields.io/github/v/release/ArexCR-ProjectPolaris/example?display_name=release&include_prereleases&sort=date)](#top)
-[![commit](https://img.shields.io/github/last-commit/ArexCR-ProjectPolaris/example)](#top)
-
-<!-- Options for badges include shields.io and forthebadge.com. You're welcome to try both -->
 
 <!-- DESCRIPTION -->
-In this section, provide a short description of the project you've made. Try not to make it too long. If you're going over three lines, you may have written too much. Try to be detailed but concise. If you can, include a screenshot (or GIF you are brave) of the product window running.
+In this section, provide a short description of the project you've made. Try not to make it too long. If you're going over three to four lines, you may have written too much. Try to be detailed but concise.
+
+
+<!-- BADGES -->
+[![issues](https://img.shields.io/github/issues/ArexCR-ProjectPolaris/example?style=for-the-badge)](#top)
+[![release](https://img.shields.io/github/v/release/ArexCR-ProjectPolaris/example?style=for-the-badge&display_name=release&include_prereleases&sort=date)](#top)
+[![commit](https://img.shields.io/github/last-commit/ArexCR-ProjectPolaris/example?style=for-the-badge)](#top)
+   
+<!-- Options for badges include shields.io and forthebadge.com. You're welcome to try both -->
+[![forthebadge](https://forthebadge.com/images/badges/uses-badges.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+
+---
 
 ## Table of Contents
 1. [Getting Started](#getting-started)
@@ -34,6 +40,9 @@ This is an example of how you may give instructions on setting up your project l
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+
+In this section, please explain what major libraries were used to perform your simulations. Any libraries that are not in the standard Anaconda pre-installed packages should be listed in a file called ```environments_[file_name].yml```. This will allow others to create the exact environment you used to run your simulation and ensures cross compatibility.
+
 
 This is an example of how to list things you need to use the software and how to install them.
 * npm
@@ -67,14 +76,17 @@ _Below is an example of how you can instruct your audience on installing and set
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+You should also briefly cover the expected inputs and outputs of your program. Please keep it short as most of the details will be in the documentation. Generally, just make a short list.
+
+_For more information, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <!-- SUPPORT -->
 ## Support
-If you have a specific way that other people should contact you for help setting up or using your program, you should list it here.
+_If you have a specific way that other people should contact you for help setting up or using your program, you should list it here._
+
 For this example, if you have questions about this repository, you should ask your Programming Coordinator or the Head of Informatics.
 For general information about everthing GitHub, the [GitHub Docs](https://docs.github.com/en) is a great resource.
 Don't hesistate to reach out with any questions!
@@ -86,11 +98,11 @@ Don't hesistate to reach out with any questions!
 ## Roadmap
 
 - [x] Add back to top links
-- [ ] Add Changelog
+- [X] Add Changelog
 - [ ] Setup contributions section
 - [ ] Create Projects demonstration
 - [ ] Create Issues demonstration
-- [ ] Add local images
+- [X] Add local images
 - [ ] Add local tags
 - [ ] Create badge ideas or templates
 
