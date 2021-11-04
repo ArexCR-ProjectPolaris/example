@@ -41,8 +41,9 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-In this section, please explain what major libraries were used to perform your simulations. Any libraries that are not in the standard Anaconda pre-installed packages should be listed in a file called ```environments_[file_name].yml```. This will allow others to create the exact environment you used to run your simulation and ensures cross compatibility.
-
+In this section, please explain what major libraries were used to perform your simulations. 
+For Python, any libraries that are not in the standard Anaconda pre-installed packages should be listed in a file called ```environments_[file_name].yml```. This will allow others to create the exact environment you used to run your simulation and ensures cross compatibility.
+Follow a similar format if you use a different language.
 
 This is an example of how to list things you need to use the software and how to install them.
 * npm
@@ -52,7 +53,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_Below is an example of how you can instruct users on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
