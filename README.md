@@ -45,11 +45,11 @@ In this section, please explain what major libraries were used to perform your s
 For Python, any libraries that are not in the standard Anaconda pre-installed packages should be listed in a file called ```environments_[file_name].yml```. This will allow others to create the exact environment you used to run your simulation and ensures cross compatibility.
 Follow a similar format if you use a different language.
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+To install libraries in Anaconda, please see the Anaconda distribution documentation.
+
+In general, a new environment should be used when using any combination of third party libraries for a new simulation to ensure version cross compatibility.
+
+```yml``` files can be extracted from your anaconda environment.
 
 ### Installation
 
