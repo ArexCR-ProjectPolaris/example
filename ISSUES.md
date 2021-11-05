@@ -1,3 +1,5 @@
+#### IN ALL OF THE BELOW, PLEASE REDACT LOGIN/PRIVATE INFORMATION
+
 #### File Name and Version
 Include the simulation's name, and which version you are running.
 
@@ -5,7 +7,7 @@ Include the simulation's name, and which version you are running.
 A clear and concise description of what the issue is about.
 
 #### Screenshots
-Add any screenshots of the issue
+Add any screenshots of the issue.
 
 #### Files
 A list of relevant files for this issue. This will help people navigate the project and offer some clues of where to start.
