@@ -45,13 +45,15 @@ In this section, please explain what major libraries were used to perform your s
 For Python, any libraries that are not in the standard Anaconda pre-installed packages should be listed in a file called ```environments_[file_name].yml```. This will allow others to create the exact environment you used to run your simulation and ensures cross compatibility.
 Follow a similar format if you use a different language.
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+To install libraries in Anaconda, please see the Anaconda distribution documentation.
+
+In general, a new environment should be used when using any combination of third party libraries for a new simulation to ensure version cross compatibility.
+
+```yml``` files can be extracted from your anaconda environment.
 
 ### Installation
+_Depending on what language and environment you are working with, you may not need this section._
+If your code requires special instructions to install or build your code (e.g. C language), you should include them here.
 
 _Below is an example of how you can instruct users on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
@@ -98,14 +100,14 @@ Don't hesistate to reach out with any questions!
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add back to top links
+- [x] Add back to top link
 - [X] Add Changelog
 - [ ] Setup contributions section
-- [ ] Create Projects demonstration
-- [ ] Create Issues demonstration
+- [x] Create Projects demonstration
+- [x] Create Issues demonstration
 - [X] Add local images
-- [ ] Add local tags
-- [ ] Create badge ideas or templates
+- [x] Add local tags
+- [] Create badge ideas or templates
 
 See the [open issues](https://github.com/ArexCR-ProjectPolaris/example/issues) for a full list of proposed features (and known issues).
 
