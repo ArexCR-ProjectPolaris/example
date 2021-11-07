@@ -145,6 +145,6 @@ As an example, here's the following people and resources which helped create thi
 
 <!-- LICENSE -->
 ## License
-As of now, Project Polaris is not distributing  code under an established license. If you would like to contribute, we invite you to join our team. After the end of the project, we plan to release our programs so that everyone can share :)
+For the duration of the Project Polaris Advanced Program, we will not be distributing code under an established license. If you are interested in contributing, we encourage you to join our team. You can find more about us [here](https://arexcr.com/projects/polaris/). At the end of the program, we plan to release all of our work for public use. We consider Open Source Software to be important and are therefore making our progress available to view during its development.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
