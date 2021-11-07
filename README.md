@@ -52,6 +52,8 @@ In general, a new environment should be used when using any combination of third
 ```yml``` files can be extracted from your anaconda environment.
 
 ### Installation
+_Depending on what language and environment you are working with, you may not need this section._
+If your code requires special instructions to install or build your code (e.g. C language), you should include them here.
 
 _Below is an example of how you can instruct users on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
@@ -98,14 +100,14 @@ Don't hesistate to reach out with any questions!
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add back to top links
+- [x] Add back to top link
 - [X] Add Changelog
 - [ ] Setup contributions section
-- [ ] Create Projects demonstration
-- [ ] Create Issues demonstration
+- [x] Create Projects demonstration
+- [x] Create Issues demonstration
 - [X] Add local images
-- [ ] Add local tags
-- [ ] Create badge ideas or templates
+- [x] Add local tags
+- [] Create badge ideas or templates
 
 See the [open issues](https://github.com/ArexCR-ProjectPolaris/example/issues) for a full list of proposed features (and known issues).
 
