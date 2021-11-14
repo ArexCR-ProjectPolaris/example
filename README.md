@@ -107,7 +107,7 @@ Don't hesistate to reach out with any questions!
 - [x] Create Issues demonstration
 - [X] Add local images
 - [x] Add local tags
-- [] Create badge ideas or templates
+- [ ] Create badge ideas or templates
 
 See the [open issues](https://github.com/ArexCR-ProjectPolaris/example/issues) for a full list of proposed features (and known issues).
 
