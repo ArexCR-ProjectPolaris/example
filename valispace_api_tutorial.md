@@ -42,13 +42,13 @@ Here are a few examples:
 A dict of Valis:
 
 ```python
-valis = valispace.get_vali_list()
+valis = valispace_API.get_vali_list()
 ```
 
 **All Vali** ids and names:
 
 ```python
-all_vali_names = valispace.get_vali_names()
+all_vali_names = valispace_API.get_vali_names()
 ```
 
 A **Vali** with all properties:
