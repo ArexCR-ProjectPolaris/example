@@ -3,7 +3,7 @@ This is a tutorial on how to pull valis from Valispace programmatically. This ha
 the simulation code does not need to be manually edited to reflect the updated values: it need only be run again.
 
 ## Keyring
-It is very unsafe to upload code that has unredacted login information on it. However, to access Valispace, you need to provide your login information within the API function call to access Valispace.
+It is very unsafe to upload code that has unredacted login information on it. However, to access Valispace, you need to provide your login information within the API function call.
 To work around this, the use of the keyring library is required.
 
 ### Initial Setup
