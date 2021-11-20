@@ -56,28 +56,28 @@ List of **Valis** with the specified arguments:
 
 Argument | Example
 ------------- | -------------
-workspace_id | `valispace.get_vali_list(workspace_id=1)`
-workspace_name | `valispace.get_vali_list(workspace_name='Default Workspace')`
-project_id | `valispace.get_vali_list(project_id=1)`
-project_name | `valispace.get_vali_list(project_name='Saturn_V')`
-parent_id | `valispace.get_vali_list(parent_id=1)`
-parent_name | `valispace.get_vali_list(parent_name='Fan')`
-tag_id | `valispace.get_vali_list(tag_id=10)`
-tag_name | `valispace.get_vali_list(tag_id='example_tag')`
-vali_marked_as_impacted | `valispace.get_vali_list(vali_marked_as_impacted='10')`
+workspace_id | `valispace_API.get_vali_list(workspace_id=1)`
+workspace_name | `valispace_API.get_vali_list(workspace_name='Default Workspace')`
+project_id | `valispace_API.get_vali_list(project_id=1)`
+project_name | `valispace_API.get_vali_list(project_name='Saturn_V')`
+parent_id | `valispace_API.get_vali_list(parent_id=1)`
+parent_name | `valispace_API.get_vali_list(parent_name='Fan')`
+tag_id | `valispace_API.get_vali_list(tag_id=10)`
+tag_name | `valispace_API.get_vali_list(tag_id='example_tag')`
+vali_marked_as_impacted | `valispace_API.get_vali_list(vali_marked_as_impacted='10')`
 
 List of **Components** with the specified arguments:
 
 Argument | Example
 ------------- | -------------
-workspace_id | `valispace.get_component_list(workspace_id=1)`
-workspace_name | `valispace.get_component_list(workspace_name='Default Workspace')`
-project_id | `valispace.get_component_list(project_id=1)`
-project_name | `valispace.get_component_list(project_name='Fan')`
-parent_id | `valispace.get_component_list(parent_id=1)`
-parent_name | `valispace.get_component_list(parent_name='Fan')`
-tag_id | `valispace.get_component_list(tag_id=10)`
-tag_name | `valispace.get_component_list(tag_name='example_tag')`
+workspace_id | `valispace_API.get_component_list(workspace_id=1)`
+workspace_name | `valispace_API.get_component_list(workspace_name='Default Workspace')`
+project_id | `valispace_API.get_component_list(project_id=1)`
+project_name | `valispace_API.get_component_list(project_name='Fan')`
+parent_id | `valispace_API.get_component_list(parent_id=1)`
+parent_name | `valispace_API.get_component_list(parent_name='Fan')`
+tag_id | `valispace_API.get_component_list(tag_id=10)`
+tag_name | `valispace_API.get_component_list(tag_name='example_tag')`
 
 There are a lot more things you can do with Valispace that is listed in the documentation website.
 
