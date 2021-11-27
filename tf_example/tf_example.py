@@ -63,5 +63,5 @@ def eq_to_solve(T_f, values_dict, state):
     
     return(pressure/(mdot*cur_cp) + T_0 - T_f) # the equation we are trying to solve, solved for zero on LHS
 
-soln = root_scalar(eq_to_solve, bracket = [values_dict['T0'][state], 10000], args=(values_dict, state)) # emplor root finder
+soln = root_scalar(eq_to_solve, bracket = [values_dict['T0'][state], 10000], args=(values_dict, state)) # employ root finder
 root = soln.root # numerical value of solution
