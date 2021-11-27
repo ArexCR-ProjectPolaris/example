@@ -16,7 +16,7 @@ url = 'polarisproject.valispace.com' # url for our Valispace
 id_roy = 'ramir169_onboarding' # id of the project that we are pulling from
 
 # standard valispace API import as detailed in the Polaris Github documentation
-valispace_API = valispace.API(url=url, username = username, password = keyring.get_password("valispace", username), )
+valispace_API = valispace.API(url=url, username = username, password = keyring.get_password("valispace", username))
 
 # Specific valis/matrices. IDs obtained from looking at Valispace
 vali_dict = {
