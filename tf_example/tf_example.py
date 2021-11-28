@@ -22,7 +22,8 @@ valispace_API = valispace.API(url=url, username = username, password = keyring.g
 vali_dict = {
     "Power": valispace_API.get_vali(id=19924),
     "mdot":valispace_API.get_vali(id=19912),
-    "T0":valispace_API.get_matrix(id=9069)
+    "T0":valispace_API.get_matrix(id=9069),
+    "MM":valispace_API.get_vali(id=19928)
     }
 
 # A function that processes the valis into a dictionary of either values or dictionaries based on states
@@ -56,10 +57,11 @@ def eq_to_solve(T_f, values_dict, state):
     power = values_dict['Power'] # conversion from psi to Pa, pressure
     mdot = values_dict['mdot'] # mass flow rate
     T_0 = values_dict['T0'][state] #  initial temperature
+    MM = values_dict['MM']
     
     T_avg = (T_f + T_0)/2 # average temperature
     
-    cur_cp = p.cp(T_avg).tolist() * 28.14/1000 # calculate c_p at the current average temperature
+    cur_cp = p.cp(T_avg).tolist() * MM/1000 # calculate c_p at the current average temperature
     
     return(power/(mdot*cur_cp) + T_0 - T_f) # the equation we are trying to solve, solved for zero on LHS
 
