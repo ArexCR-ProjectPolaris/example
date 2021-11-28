@@ -20,7 +20,7 @@ valispace_API = valispace.API(url=url, username = username, password = keyring.g
 
 # Specific valis/matrices. IDs obtained from looking at Valispace
 vali_dict = {
-    "Pressure": valispace_API.get_matrix(id=9068),
+    "Power": valispace_API.get_vali(id=19924),
     "mdot":valispace_API.get_vali(id=19912),
     "T0":valispace_API.get_matrix(id=9069)
     }
@@ -53,15 +53,15 @@ p = db.getphasedata(formula='N2') # chemical in question
 def eq_to_solve(T_f, values_dict, state):
     
     # locally define values for convenience
-    pressure = values_dict['Pressure'][state]*6894.76 # conversion from psi to Pa, pressure
+    power = values_dict['Power'] # conversion from psi to Pa, pressure
     mdot = values_dict['mdot'] # mass flow rate
     T_0 = values_dict['T0'][state] #  initial temperature
     
     T_avg = (T_f + T_0)/2 # average temperature
     
-    cur_cp = p.cp(T_avg).tolist() # calculate c_p at the current average temperature
+    cur_cp = p.cp(T_avg).tolist() * 28.14/1000 # calculate c_p at the current average temperature
     
-    return(pressure/(mdot*cur_cp) + T_0 - T_f) # the equation we are trying to solve, solved for zero on LHS
+    return(power/(mdot*cur_cp) + T_0 - T_f) # the equation we are trying to solve, solved for zero on LHS
 
-soln = root_scalar(eq_to_solve, bracket = [values_dict['T0'][state], 10000], args=(values_dict, state)) # employ root finder
+soln = root_scalar(eq_to_solve, bracket = [values_dict['T0'][state], 10000], args=(values_dict, state)) # emplor root finder
 root = soln.root # numerical value of solution
