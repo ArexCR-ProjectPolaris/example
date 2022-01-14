@@ -1,0 +1,45 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: osx-arm64
+autopep8=1.6.0=pyhd3eb1b0_0
+blas=1.0=openblas
+ca-certificates=2021.10.26=hca03da5_2
+certifi=2021.10.8=py39hca03da5_2
+charset-normalizer=2.0.10=pypi_0
+expat=2.4.1=hc377ac9_2
+idna=3.3=pypi_0
+importlib-metadata=4.8.2=py39hca03da5_0
+importlib_metadata=4.8.2=hd3eb1b0_0
+keyring=23.4.0=py39hca03da5_0
+libcxx=12.0.0=hf6beb65_1
+libffi=3.4.2=hc377ac9_2
+libgfortran=5.0.0=11_1_0_h6a59814_26
+libgfortran5=11.1.0=h6a59814_26
+libiconv=1.16=h1230e6a_0
+libopenblas=0.3.17=hcab743c_1
+llvm-openmp=12.0.0=haf9daa7_1
+ncurses=6.3=h1a28f6b_2
+numpy=1.22.0=pypi_0
+openssl=1.1.1m=h1a28f6b_0
+pandas=1.3.5=pypi_0
+pip=21.2.4=py39hca03da5_0
+pycodestyle=2.8.0=pyhd3eb1b0_0
+python=3.9.7=hc70090a_1
+python-dateutil=2.8.2=pypi_0
+pytz=2021.3=pypi_0
+readline=8.1.2=h1a28f6b_1
+requests=2.27.1=pypi_0
+scipy=1.7.1=py39h2f0f56f_2
+setuptools=58.0.4=py39hca03da5_1
+six=1.16.0=pypi_0
+sqlite=3.37.0=h1058600_0
+thermochem=0.8.0=pypi_0
+tk=8.6.11=hb8d0fd4_0
+toml=0.10.2=pyhd3eb1b0_0
+tzdata=2021e=hda174b7_0
+urllib3=1.26.8=pypi_0
+valispace=0.1.16=pypi_0
+wheel=0.37.1=pyhd3eb1b0_0
+xz=5.2.5=h1a28f6b_0
+zipp=3.7.0=pyhd3eb1b0_0
+zlib=1.2.11=h5a0b063_4
