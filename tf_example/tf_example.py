@@ -2,7 +2,7 @@
 """
 Created on Sat Nov 27 16:20:34 2021
 
-@author: vargh
+@author: vargh, jramthun
 """
 # Imports
 import valispace
@@ -67,3 +67,8 @@ def eq_to_solve(T_f, values_dict, state):
 
 soln = root_scalar(eq_to_solve, bracket = [values_dict['T0'][state], 10000], args=(values_dict, state)) # emplor root finder
 root = soln.root # numerical value of solution
+
+# uploading results to valispace
+valispace_API.update_vali(id=19930, formula=root)
+# NOTE: do not POST data/valis/etc. without explicit permission from your PC or the HoI
+# NOTE: always UPDATE an existing vali. If the vali does not exist, create it from within valispace
